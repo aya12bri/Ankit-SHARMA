@@ -98,7 +98,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
 }
 .home-content {
     display: flex;
@@ -112,28 +112,28 @@ section{
 .home-content h2{
     margin-bottom:1.5rem;
     margin-top: 1rem;
-    font-size: 3rem;  
+    font-size: 2.8rem;  
     font-weight: 800;
 }
 
 
 .home-content h1{
-    font-size: 8rem;
+    font-size: 7rem;
     font-weight: 800;
-    margin-top: 15rem;
+    margin-top: 20rem;
     line-height: 1;
 }
 
 
 .home-content p{
-    font-size: 1.8rem;
-    font-weight: 300;
+    font-size: 1.7rem;
+    font-weight: 400;
     margin-top: 2.5rem;
     line-height: 1.8;
     max-width:1000px;
 }
 .MBA{
-    font-weight: 300;
+    font-weight: 600;
     color: var(--main-color);
 }
 
@@ -142,8 +142,9 @@ section{
 }
 .home-img img{
     position:relative;
-    top: 3rem;
-    width: 30vw; 
+    top: 10rem;
+   left: 15rem;
+    width: 35vw; 
     border-radius: 50%;
     background: linear-gradient(270deg,
     #fff000 10% , #ff9900d7 100%);
@@ -647,14 +648,14 @@ section{
 }
 
 .contact{
-    padding: 50px 15px;
+    padding: 25px 15px;
     background: var(--second-bg-color);
     min-height: auto;
 }
 .contact-info-upper-container {
   display: flex;
   place-items: center;
-  max-width: 900px;
+  max-width: 1200px;
   justify-content: center;
   align-items: center;
   border-radius: 2rem;
